@@ -1,0 +1,2002 @@
+[
+  {
+    "user_input": "Can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Hello SHATO",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you help",
+    "expected_output": {
+      "response": "I can help you with: move_to (x,y coordinates), rotate (angle and direction), and start_patrol (route patrol) commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Help",
+    "expected_output": {
+      "response": "I can help you with: move_to (x,y coordinates), rotate (angle and direction), and start_patrol (route patrol) commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "How are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's your status?",
+    "expected_output": {
+      "response": "All systems operational. Ready for commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to how are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "How fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you help",
+    "expected_output": {
+      "response": "I can help you with: move_to (x,y coordinates), rotate (angle and direction), and start_patrol (route patrol) commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you hello shato",
+    "expected_output": {
+      "response": "Hello! I'm SHATO, ready to assist with robot commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to thank you",
+    "expected_output": {
+      "response": "You're welcome! Is there anything else you need?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what can you do?",
+    "expected_output": {
+      "response": "I can move to coordinates, rotate, and patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please can you explain the patrol routes?",
+    "expected_output": {
+      "response": "I can patrol three routes: first_floor, bedrooms, and second_floor. Each can be done at different speeds and repetitions.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Good morning robot",
+    "expected_output": {
+      "response": "Good morning! How can I assist you today?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Help",
+    "expected_output": {
+      "response": "I can help you with: move_to (x,y coordinates), rotate (angle and direction), and start_patrol (route patrol) commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Help",
+    "expected_output": {
+      "response": "I can help you with: move_to (x,y coordinates), rotate (angle and direction), and start_patrol (route patrol) commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "How are you doing?",
+    "expected_output": {
+      "response": "I'm functioning properly and ready to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind good job",
+    "expected_output": {
+      "response": "Thank you! Ready for the next task.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you what's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you do you understand me?",
+    "expected_output": {
+      "response": "Yes, I understand. Please give me a command to execute.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "Are you online?",
+    "expected_output": {
+      "response": "Yes, I'm online and ready to receive commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you reset",
+    "expected_output": {
+      "response": "Ready for new commands. How can I help?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What time is it?",
+    "expected_output": {
+      "response": "I'm focused on navigation commands. For time queries, please check another source.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please how fast can you move?",
+    "expected_output": {
+      "response": "I can patrol at slow, medium, or fast speeds depending on your requirements.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "would you mind tell me about your capabilities",
+    "expected_output": {
+      "response": "I can navigate to specific coordinates, rotate in any direction, and patrol designated routes like the first floor, bedrooms, or second floor.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you can you hear me?",
+    "expected_output": {
+      "response": "Yes, I can receive your messages clearly.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "could you are you working properly?",
+    "expected_output": {
+      "response": "Yes, all systems are functioning normally.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "What's the weather like?",
+    "expected_output": {
+      "response": "I'm a navigation robot and don't have weather data. I can help with movement commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "please nice to meet you",
+    "expected_output": {
+      "response": "Nice to meet you too! I'm here to help.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  },
+  {
+    "user_input": "I need you to stop",
+    "expected_output": {
+      "response": "Stopped. Awaiting next command.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "chat",
+    "type": "conversation"
+  }
+]

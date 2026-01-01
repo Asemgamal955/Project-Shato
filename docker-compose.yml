@@ -1,0 +1,103 @@
+services:
+  # -------------------------------
+  # 1. UI Service
+  # -------------------------------
+  ui-service:
+    build:
+      context: ./ui-service
+    container_name: ui-service
+    ports:
+      - "7860:7860"
+    environment:
+      - ORCHESTRATOR_URL=http://orchestrator:8000/process_audio/
+    networks:
+      - shato-network
+    depends_on:
+      - orchestrator
+
+  # -------------------------------
+  # 2. Orchestrator
+  # -------------------------------
+  orchestrator:
+    build:
+      context: ./orchestrator
+    container_name: orchestrator
+    ports:
+      - "8000:8000"
+    networks:
+      - shato-network
+    depends_on:
+      - stt-service
+      - llm-service
+      - robot-validator
+      - tts-service
+    environment:
+      - LLM_URL=http://llm-service:9000
+      - VALIDATOR_URL=http://robot-validator:8001
+      - TTS_URL=http://tts-service:8004
+
+  # -------------------------------
+  # 3. STT-Service
+  # -------------------------------
+  stt-service:
+    build:
+      context: ./stt-service
+    container_name: stt-service
+    ports:
+      - "8003:8003"
+    networks:
+      - shato-network
+
+  # -------------------------------
+  # 4. LLM-Service
+  # -------------------------------
+  llm-service:
+    build: ./llm-service
+    container_name: llm-service
+    ports:
+      - "9000:9000"    # FastAPI
+      - "11434:11434"  # Ollama
+    networks:
+      - shato-network
+    environment:
+      # Fixed: Remove trailing slash to prevent double slash
+      - OLLAMA_URL=http://127.0.0.1:11434
+
+  # -------------------------------
+  # 5. Robot Validator
+  # -------------------------------
+  robot-validator:
+    build:
+      context: ./robot-validator-api
+    container_name: robot-validator
+    ports:
+      - "8001:8001"
+    networks:
+      - shato-network
+
+  # -------------------------------
+  # 6. TTS Service (Now Enabled)
+  # -------------------------------
+  tts-service:
+    build:
+      context: ./tts-service
+    container_name: tts-service
+    ports:
+      - "8004:8004"
+    networks:
+      - shato-network
+    # Optional: Add resource limits for TTS processing
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+        reservations:
+          memory: 1G
+
+# -------------------------------
+# Network for internal service communication
+# -------------------------------
+networks:
+  shato-network:
+    name: shato-network
+    driver: bridge

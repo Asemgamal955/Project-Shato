@@ -1,0 +1,5852 @@
+[
+  {
+    "user_input": "proceed to 22, 8.9",
+    "expected_output": {
+      "response": "Proceeding to coordinates (22.0, 8.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.0,
+        "y": 8.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -32, 13",
+    "expected_output": {
+      "response": "Moving to coordinates (-32, 13).",
+      "command": "move_to",
+      "command_params": {
+        "x": -32.0,
+        "y": 13.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-14.8 y=19",
+    "expected_output": {
+      "response": "Traveling to coordinates (-14.8, 19.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.8,
+        "y": 19.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 32.4, 32.5",
+    "expected_output": {
+      "response": "Moving to coordinates (32.4, 32.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 32.4,
+        "y": 32.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 41.1, -13.3",
+    "expected_output": {
+      "response": "Moving to point (41.1, -13.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 41.1,
+        "y": -13.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -45, 18.7",
+    "expected_output": {
+      "response": "Moving to location (-45.0, 18.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -45.0,
+        "y": 18.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-16 y=-36",
+    "expected_output": {
+      "response": "Traveling to coordinates (-16, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -14, 4",
+    "expected_output": {
+      "response": "Moving to point (-14.0, 4.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.0,
+        "y": 4.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 24.5, -2.6",
+    "expected_output": {
+      "response": "Proceeding to coordinates (24.5, -2.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 24.5,
+        "y": -2.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 7, 16",
+    "expected_output": {
+      "response": "Moving to coordinates (7, 16).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.0,
+        "y": 16.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 48.8, 40.7",
+    "expected_output": {
+      "response": "Moving to location (48.8, 40.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 48.8,
+        "y": 40.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 100, 100",
+    "expected_output": {
+      "response": "Moving straight to (100.0, 100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 42.4, -14.1",
+    "expected_output": {
+      "response": "Moving to coordinates (42.4, -14.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 42.4,
+        "y": -14.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-27, -42)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-27, -42).",
+      "command": "move_to",
+      "command_params": {
+        "x": -27.0,
+        "y": -42.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 16.4, 41.6",
+    "expected_output": {
+      "response": "Going to coordinates (16.4, 41.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.4,
+        "y": 41.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -17, -39",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-17, -39).",
+      "command": "move_to",
+      "command_params": {
+        "x": -17.0,
+        "y": -39.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -45, -5",
+    "expected_output": {
+      "response": "Heading to position (-45, -5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -45.0,
+        "y": -5.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 0, 0",
+    "expected_output": {
+      "response": "Moving straight to (0.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-36 y=-36",
+    "expected_output": {
+      "response": "Traveling to coordinates (-36, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": -36.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -28, -12",
+    "expected_output": {
+      "response": "Moving to coordinates (-28, -12).",
+      "command": "move_to",
+      "command_params": {
+        "x": -28.0,
+        "y": -12.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 44.8, -45",
+    "expected_output": {
+      "response": "Moving straight to (44.8, -45.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 44.8,
+        "y": -45.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 15.6, 41.5",
+    "expected_output": {
+      "response": "Moving to location (15.6, 41.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.6,
+        "y": 41.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-24, 27)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-24, 27).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.0,
+        "y": 27.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -10, -6",
+    "expected_output": {
+      "response": "Moving straight to (-10, -6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -10.0,
+        "y": -6.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 26.7, 20.9",
+    "expected_output": {
+      "response": "Proceeding to coordinates (26.7, 20.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 26.7,
+        "y": 20.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -43.5, 46",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-43.5, 46.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.5,
+        "y": 46.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -12, 21",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-12, 21).",
+      "command": "move_to",
+      "command_params": {
+        "x": -12.0,
+        "y": 21.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-24.5, 22.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-24.5, 22.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.5,
+        "y": 22.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 16.4, 13.7",
+    "expected_output": {
+      "response": "Moving to location (16.4, 13.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.4,
+        "y": 13.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 26.4, -5.9",
+    "expected_output": {
+      "response": "Navigating to point (26.4, -5.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 26.4,
+        "y": -5.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -16.8, 27.3",
+    "expected_output": {
+      "response": "Moving to coordinates (-16.8, 27.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.8,
+        "y": 27.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 9.8, 18.4",
+    "expected_output": {
+      "response": "Moving to location (9.8, 18.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.8,
+        "y": 18.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -1, -1",
+    "expected_output": {
+      "response": "Navigating to point (-1.0, -1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.0,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-25 y=-29",
+    "expected_output": {
+      "response": "Traveling to coordinates (-25, -29).",
+      "command": "move_to",
+      "command_params": {
+        "x": -25.0,
+        "y": -29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 0, -36",
+    "expected_output": {
+      "response": "Heading to position (0, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -24.4, 17.9",
+    "expected_output": {
+      "response": "Moving to point (-24.4, 17.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.4,
+        "y": 17.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 8.8, -6.7",
+    "expected_output": {
+      "response": "Moving to point (8.8, -6.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.8,
+        "y": -6.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 3.7, -11.5",
+    "expected_output": {
+      "response": "Moving to coordinates (3.7, -11.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 3.7,
+        "y": -11.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -46, 46",
+    "expected_output": {
+      "response": "Moving to coordinates (-46, 46).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.0,
+        "y": 46.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -49.8, -42.7",
+    "expected_output": {
+      "response": "Moving to coordinates (-49.8, -42.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.8,
+        "y": -42.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -41.1, 26.9",
+    "expected_output": {
+      "response": "Moving to coordinates (-41.1, 26.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -41.1,
+        "y": 26.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -7.9, 21.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-7.9, 21.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -7.9,
+        "y": 21.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -23.9, -19",
+    "expected_output": {
+      "response": "Heading to position (-23.9, -19.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -23.9,
+        "y": -19.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 47.9, -26.3",
+    "expected_output": {
+      "response": "Moving to coordinates (47.9, -26.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 47.9,
+        "y": -26.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -11.8, 0.8",
+    "expected_output": {
+      "response": "Moving to location (-11.8, 0.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -11.8,
+        "y": 0.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -1.5, 34",
+    "expected_output": {
+      "response": "Moving to location (-1.5, 34.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.5,
+        "y": 34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -4, -26.1",
+    "expected_output": {
+      "response": "Moving to coordinates (-4.0, -26.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -4.0,
+        "y": -26.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -30.4, -26.7",
+    "expected_output": {
+      "response": "Going to coordinates (-30.4, -26.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -30.4,
+        "y": -26.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 0, 0",
+    "expected_output": {
+      "response": "Moving to coordinates (0.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -30, -44.1",
+    "expected_output": {
+      "response": "Heading to position (-30.0, -44.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -30.0,
+        "y": -44.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 39, 25",
+    "expected_output": {
+      "response": "Moving to point (39, 25).",
+      "command": "move_to",
+      "command_params": {
+        "x": 39.0,
+        "y": 25.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 8, -33",
+    "expected_output": {
+      "response": "Proceeding to coordinates (8, -33).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.0,
+        "y": -33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -22.2, -9.8",
+    "expected_output": {
+      "response": "Heading to position (-22.2, -9.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -22.2,
+        "y": -9.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 27.9, -14.6",
+    "expected_output": {
+      "response": "Moving to location (27.9, -14.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 27.9,
+        "y": -14.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 23.7, -27.5",
+    "expected_output": {
+      "response": "Moving straight to (23.7, -27.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 23.7,
+        "y": -27.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 43.1, 42.1",
+    "expected_output": {
+      "response": "Moving to coordinates (43.1, 42.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 43.1,
+        "y": 42.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 45, -15.8",
+    "expected_output": {
+      "response": "Navigating to point (45.0, -15.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 45.0,
+        "y": -15.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 39, -19",
+    "expected_output": {
+      "response": "Moving to coordinates (39, -19).",
+      "command": "move_to",
+      "command_params": {
+        "x": 39.0,
+        "y": -19.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 46.5, 38",
+    "expected_output": {
+      "response": "Moving straight to (46.5, 38.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 46.5,
+        "y": 38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 18.9, 17.7",
+    "expected_output": {
+      "response": "Moving to coordinates (18.9, 17.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 18.9,
+        "y": 17.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -13.8, 9.2",
+    "expected_output": {
+      "response": "Moving to coordinates (-13.8, 9.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -13.8,
+        "y": 9.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 33.1, 4.6",
+    "expected_output": {
+      "response": "Moving straight to (33.1, 4.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 33.1,
+        "y": 4.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 41, 48",
+    "expected_output": {
+      "response": "Proceeding to coordinates (41, 48).",
+      "command": "move_to",
+      "command_params": {
+        "x": 41.0,
+        "y": 48.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 0, 1",
+    "expected_output": {
+      "response": "Moving straight to (0.0, 1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-13.8 y=-35.5",
+    "expected_output": {
+      "response": "Traveling to coordinates (-13.8, -35.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -13.8,
+        "y": -35.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 1.3, y: 45.1",
+    "expected_output": {
+      "response": "Moving to coordinates (1.3, 45.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.3,
+        "y": 45.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-5, -21)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-5, -21).",
+      "command": "move_to",
+      "command_params": {
+        "x": -5.0,
+        "y": -21.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 46, -13",
+    "expected_output": {
+      "response": "Moving to coordinates (46, -13).",
+      "command": "move_to",
+      "command_params": {
+        "x": 46.0,
+        "y": -13.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -15.8, -23.8",
+    "expected_output": {
+      "response": "Moving to coordinates (-15.8, -23.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -15.8,
+        "y": -23.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 19.1, -39.5",
+    "expected_output": {
+      "response": "Moving to coordinates (19.1, -39.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 19.1,
+        "y": -39.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (42, -8)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (42, -8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 42.0,
+        "y": -8.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 5.1, 33.2",
+    "expected_output": {
+      "response": "Moving to location (5.1, 33.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.1,
+        "y": 33.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -40.5, -12.7",
+    "expected_output": {
+      "response": "Going to coordinates (-40.5, -12.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -40.5,
+        "y": -12.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-26.4 y=15",
+    "expected_output": {
+      "response": "Traveling to coordinates (-26.4, 15.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -26.4,
+        "y": 15.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-24.2, 38.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-24.2, 38.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.2,
+        "y": 38.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-17.3 y=13.2",
+    "expected_output": {
+      "response": "Traveling to coordinates (-17.3, 13.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -17.3,
+        "y": 13.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 9.1, -44.1",
+    "expected_output": {
+      "response": "Proceeding to coordinates (9.1, -44.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.1,
+        "y": -44.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -0.4, 2.9",
+    "expected_output": {
+      "response": "Moving to point (-0.4, 2.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.4,
+        "y": 2.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 13.8, 16.6",
+    "expected_output": {
+      "response": "Going to coordinates (13.8, 16.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 13.8,
+        "y": 16.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-31, -46)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-31, -46).",
+      "command": "move_to",
+      "command_params": {
+        "x": -31.0,
+        "y": -46.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 4.3, 11.3",
+    "expected_output": {
+      "response": "Moving to coordinates (4.3, 11.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 4.3,
+        "y": 11.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 23.8, 22.1",
+    "expected_output": {
+      "response": "Moving to point (23.8, 22.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 23.8,
+        "y": 22.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 28, -42",
+    "expected_output": {
+      "response": "Moving straight to (28, -42).",
+      "command": "move_to",
+      "command_params": {
+        "x": 28.0,
+        "y": -42.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 15.9, y: 33.9",
+    "expected_output": {
+      "response": "Moving to coordinates (15.9, 33.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.9,
+        "y": 33.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -16, 4.5",
+    "expected_output": {
+      "response": "Moving straight to (-16.0, 4.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.0,
+        "y": 4.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 7.9, -36.2",
+    "expected_output": {
+      "response": "Proceeding to coordinates (7.9, -36.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.9,
+        "y": -36.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (22.9, 33.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (22.9, 33.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.9,
+        "y": 33.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=37 y=-34",
+    "expected_output": {
+      "response": "Traveling to coordinates (37, -34).",
+      "command": "move_to",
+      "command_params": {
+        "x": 37.0,
+        "y": -34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -4.9, 30.3",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-4.9, 30.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -4.9,
+        "y": 30.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-23.7 y=-10",
+    "expected_output": {
+      "response": "Traveling to coordinates (-23.7, -10.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -23.7,
+        "y": -10.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -44.6, -42",
+    "expected_output": {
+      "response": "Moving straight to (-44.6, -42.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.6,
+        "y": -42.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-46.7, -27.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-46.7, -27.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.7,
+        "y": -27.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -5, -38",
+    "expected_output": {
+      "response": "Navigating to point (-5, -38).",
+      "command": "move_to",
+      "command_params": {
+        "x": -5.0,
+        "y": -38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 4.2, 24.6",
+    "expected_output": {
+      "response": "Proceeding to coordinates (4.2, 24.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 4.2,
+        "y": 24.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-23 y=32",
+    "expected_output": {
+      "response": "Traveling to coordinates (-23, 32).",
+      "command": "move_to",
+      "command_params": {
+        "x": -23.0,
+        "y": 32.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -10.9, -13.7",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-10.9, -13.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -10.9,
+        "y": -13.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -49.6, y: -0.7",
+    "expected_output": {
+      "response": "Moving to coordinates (-49.6, -0.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.6,
+        "y": -0.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -39, 16.7",
+    "expected_output": {
+      "response": "Moving to location (-39.0, 16.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -39.0,
+        "y": 16.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 21.3, 9.3",
+    "expected_output": {
+      "response": "Moving straight to (21.3, 9.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 21.3,
+        "y": 9.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 32, 15.7",
+    "expected_output": {
+      "response": "Moving to coordinates (32.0, 15.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 32.0,
+        "y": 15.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 11, -3",
+    "expected_output": {
+      "response": "Proceeding to coordinates (11, -3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 11.0,
+        "y": -3.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 43, -11",
+    "expected_output": {
+      "response": "Going to coordinates (43, -11).",
+      "command": "move_to",
+      "command_params": {
+        "x": 43.0,
+        "y": -11.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -0.9, y: 33.4",
+    "expected_output": {
+      "response": "Moving to coordinates (-0.9, 33.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.9,
+        "y": 33.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 4.1, -39.1",
+    "expected_output": {
+      "response": "Proceeding to coordinates (4.1, -39.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 4.1,
+        "y": -39.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 30, 29",
+    "expected_output": {
+      "response": "Moving to coordinates (30, 29).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.0,
+        "y": 29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -9.5, 42.5",
+    "expected_output": {
+      "response": "Navigating to point (-9.5, 42.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.5,
+        "y": 42.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 5, -42",
+    "expected_output": {
+      "response": "Moving to coordinates (5, -42).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.0,
+        "y": -42.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 35.3, 16.6",
+    "expected_output": {
+      "response": "Going to coordinates (35.3, 16.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 35.3,
+        "y": 16.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-12.8, 45.8)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-12.8, 45.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -12.8,
+        "y": 45.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (26.1, -33.5)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (26.1, -33.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 26.1,
+        "y": -33.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -39.7, -26.5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-39.7, -26.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -39.7,
+        "y": -26.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -14.3, 1.4",
+    "expected_output": {
+      "response": "Moving to coordinates (-14.3, 1.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.3,
+        "y": 1.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -6, 17",
+    "expected_output": {
+      "response": "Moving straight to (-6, 17).",
+      "command": "move_to",
+      "command_params": {
+        "x": -6.0,
+        "y": 17.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=8 y=-23",
+    "expected_output": {
+      "response": "Traveling to coordinates (8, -23).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.0,
+        "y": -23.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -29.9, -7",
+    "expected_output": {
+      "response": "Navigating to point (-29.9, -7.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -29.9,
+        "y": -7.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -42, y: 44",
+    "expected_output": {
+      "response": "Moving to coordinates (-42, 44).",
+      "command": "move_to",
+      "command_params": {
+        "x": -42.0,
+        "y": 44.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 25.6, -17.6",
+    "expected_output": {
+      "response": "Moving to point (25.6, -17.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 25.6,
+        "y": -17.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-38.1 y=6.8",
+    "expected_output": {
+      "response": "Traveling to coordinates (-38.1, 6.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -38.1,
+        "y": 6.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=12.9 y=-44.4",
+    "expected_output": {
+      "response": "Traveling to coordinates (12.9, -44.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 12.9,
+        "y": -44.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 16, 28",
+    "expected_output": {
+      "response": "Moving to location (16, 28).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": 28.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -22.9, 25.4",
+    "expected_output": {
+      "response": "Going to coordinates (-22.9, 25.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -22.9,
+        "y": 25.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -8.9, 34.6",
+    "expected_output": {
+      "response": "Heading to position (-8.9, 34.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -8.9,
+        "y": 34.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (18, 43)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (18, 43).",
+      "command": "move_to",
+      "command_params": {
+        "x": 18.0,
+        "y": 43.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -14.9, -37.8",
+    "expected_output": {
+      "response": "Going to coordinates (-14.9, -37.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.9,
+        "y": -37.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=26.2 y=44.7",
+    "expected_output": {
+      "response": "Traveling to coordinates (26.2, 44.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 26.2,
+        "y": 44.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 31.7, -30.3",
+    "expected_output": {
+      "response": "Proceeding to coordinates (31.7, -30.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 31.7,
+        "y": -30.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 42, 49",
+    "expected_output": {
+      "response": "Moving to point (42, 49).",
+      "command": "move_to",
+      "command_params": {
+        "x": 42.0,
+        "y": 49.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -44.6, 47.3",
+    "expected_output": {
+      "response": "Moving to coordinates (-44.6, 47.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.6,
+        "y": 47.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -5, 30",
+    "expected_output": {
+      "response": "Moving straight to (-5, 30).",
+      "command": "move_to",
+      "command_params": {
+        "x": -5.0,
+        "y": 30.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -27.7, 27.9",
+    "expected_output": {
+      "response": "Navigating to point (-27.7, 27.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -27.7,
+        "y": 27.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -18.7, -30.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-18.7, -30.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -18.7,
+        "y": -30.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -38.2, -34.2",
+    "expected_output": {
+      "response": "Going to coordinates (-38.2, -34.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -38.2,
+        "y": -34.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 18.7, 6",
+    "expected_output": {
+      "response": "Going to coordinates (18.7, 6.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 18.7,
+        "y": 6.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -5, -36",
+    "expected_output": {
+      "response": "Moving to coordinates (-5, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": -5.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 19.4, -40.1",
+    "expected_output": {
+      "response": "Moving to location (19.4, -40.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 19.4,
+        "y": -40.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-1 y=43",
+    "expected_output": {
+      "response": "Traveling to coordinates (-1, 43).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.0,
+        "y": 43.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -20.7, 5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-20.7, 5.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -20.7,
+        "y": 5.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=35 y=20.3",
+    "expected_output": {
+      "response": "Traveling to coordinates (35.0, 20.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 35.0,
+        "y": 20.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 3, -33",
+    "expected_output": {
+      "response": "Moving to location (3, -33).",
+      "command": "move_to",
+      "command_params": {
+        "x": 3.0,
+        "y": -33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -30.8, -13.9",
+    "expected_output": {
+      "response": "Moving to coordinates (-30.8, -13.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -30.8,
+        "y": -13.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 22, y: -23",
+    "expected_output": {
+      "response": "Moving to coordinates (22, -23).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.0,
+        "y": -23.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-24, -32)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-24, -32).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.0,
+        "y": -32.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -49, 6",
+    "expected_output": {
+      "response": "Moving to point (-49, 6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.0,
+        "y": 6.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -43.8, 10.2",
+    "expected_output": {
+      "response": "Moving to coordinates (-43.8, 10.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.8,
+        "y": 10.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -42, -30",
+    "expected_output": {
+      "response": "Moving to coordinates (-42, -30).",
+      "command": "move_to",
+      "command_params": {
+        "x": -42.0,
+        "y": -30.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -19.3, 27.8",
+    "expected_output": {
+      "response": "Moving to coordinates (-19.3, 27.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -19.3,
+        "y": 27.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 23, 36.7",
+    "expected_output": {
+      "response": "Heading to position (23.0, 36.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 23.0,
+        "y": 36.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -27.5, 35.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-27.5, 35.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -27.5,
+        "y": 35.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (5.3, -28.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (5.3, -28.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.3,
+        "y": -28.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 47.2, -35.4",
+    "expected_output": {
+      "response": "Moving to coordinates (47.2, -35.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 47.2,
+        "y": -35.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 34.9, 49.2",
+    "expected_output": {
+      "response": "Heading to position (34.9, 49.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 34.9,
+        "y": 49.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 34, -15.1",
+    "expected_output": {
+      "response": "Moving to location (34.0, -15.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 34.0,
+        "y": -15.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 7.6, y: 26.1",
+    "expected_output": {
+      "response": "Moving to coordinates (7.6, 26.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.6,
+        "y": 26.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -24, y: 48",
+    "expected_output": {
+      "response": "Moving to coordinates (-24, 48).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.0,
+        "y": 48.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 21.3, -27.4",
+    "expected_output": {
+      "response": "Moving to coordinates (21.3, -27.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 21.3,
+        "y": -27.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 45.8, -33.1",
+    "expected_output": {
+      "response": "Moving straight to (45.8, -33.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 45.8,
+        "y": -33.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 20.6, -19.4",
+    "expected_output": {
+      "response": "Moving to coordinates (20.6, -19.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 20.6,
+        "y": -19.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 1, 0",
+    "expected_output": {
+      "response": "Proceeding to coordinates (1.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 9.2, -43.8",
+    "expected_output": {
+      "response": "Moving to coordinates (9.2, -43.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.2,
+        "y": -43.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-23.5 y=-6.1",
+    "expected_output": {
+      "response": "Traveling to coordinates (-23.5, -6.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -23.5,
+        "y": -6.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -25, -15.2",
+    "expected_output": {
+      "response": "Going to coordinates (-25.0, -15.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -25.0,
+        "y": -15.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 16, 40",
+    "expected_output": {
+      "response": "Moving straight to (16, 40).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": 40.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 20.3, -42.9",
+    "expected_output": {
+      "response": "Moving straight to (20.3, -42.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 20.3,
+        "y": -42.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -14.9, -12.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-14.9, -12.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.9,
+        "y": -12.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (37, -11)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (37, -11).",
+      "command": "move_to",
+      "command_params": {
+        "x": 37.0,
+        "y": -11.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 0.3, 28.2",
+    "expected_output": {
+      "response": "Going to coordinates (0.3, 28.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.3,
+        "y": 28.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 25.3, 5.6",
+    "expected_output": {
+      "response": "Heading to position (25.3, 5.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 25.3,
+        "y": 5.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-9, -16)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-9, -16).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.0,
+        "y": -16.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -10, 29",
+    "expected_output": {
+      "response": "Moving to point (-10, 29).",
+      "command": "move_to",
+      "command_params": {
+        "x": -10.0,
+        "y": 29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 46.4, -13.2",
+    "expected_output": {
+      "response": "Moving straight to (46.4, -13.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 46.4,
+        "y": -13.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 46.2, 16.7",
+    "expected_output": {
+      "response": "Moving to coordinates (46.2, 16.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 46.2,
+        "y": 16.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -39.4, -4.4",
+    "expected_output": {
+      "response": "Moving to coordinates (-39.4, -4.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -39.4,
+        "y": -4.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -42.1, -10.1",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-42.1, -10.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -42.1,
+        "y": -10.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (1, 0)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (1.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -1, -1",
+    "expected_output": {
+      "response": "Moving to point (-1.0, -1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.0,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -0.4, 5.5",
+    "expected_output": {
+      "response": "Moving to point (-0.4, 5.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.4,
+        "y": 5.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 19, 34",
+    "expected_output": {
+      "response": "Heading to position (19, 34).",
+      "command": "move_to",
+      "command_params": {
+        "x": 19.0,
+        "y": 34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 21, -29",
+    "expected_output": {
+      "response": "Moving to coordinates (21, -29).",
+      "command": "move_to",
+      "command_params": {
+        "x": 21.0,
+        "y": -29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 37.4, 32.1",
+    "expected_output": {
+      "response": "Moving to coordinates (37.4, 32.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 37.4,
+        "y": 32.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 18.2, -27.2",
+    "expected_output": {
+      "response": "Navigating to point (18.2, -27.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 18.2,
+        "y": -27.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 8, 33",
+    "expected_output": {
+      "response": "Moving to coordinates (8, 33).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.0,
+        "y": 33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 4.8, -25.5",
+    "expected_output": {
+      "response": "Moving to coordinates (4.8, -25.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 4.8,
+        "y": -25.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 16, 9",
+    "expected_output": {
+      "response": "Moving to location (16, 9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": 9.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -48.4, -5.2",
+    "expected_output": {
+      "response": "Moving to location (-48.4, -5.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -48.4,
+        "y": -5.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 2.5, 5.1",
+    "expected_output": {
+      "response": "Navigating to point (2.5, 5.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 2.5,
+        "y": 5.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=40 y=25",
+    "expected_output": {
+      "response": "Traveling to coordinates (40, 25).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.0,
+        "y": 25.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -18.3, y: 30.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-18.3, 30.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -18.3,
+        "y": 30.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 9.5, 49.3",
+    "expected_output": {
+      "response": "Going to coordinates (9.5, 49.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.5,
+        "y": 49.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-3.9 y=36.8",
+    "expected_output": {
+      "response": "Traveling to coordinates (-3.9, 36.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.9,
+        "y": 36.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-47.5, 42.8)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-47.5, 42.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -47.5,
+        "y": 42.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 0, 27",
+    "expected_output": {
+      "response": "Moving to location (0, 27).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 27.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-3.3, -23.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-3.3, -23.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.3,
+        "y": -23.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -33.6, 32",
+    "expected_output": {
+      "response": "Moving to coordinates (-33.6, 32.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.6,
+        "y": 32.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -40.4, -13.9",
+    "expected_output": {
+      "response": "Moving to coordinates (-40.4, -13.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -40.4,
+        "y": -13.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -8, -38",
+    "expected_output": {
+      "response": "Moving to coordinates (-8, -38).",
+      "command": "move_to",
+      "command_params": {
+        "x": -8.0,
+        "y": -38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -7.4, y: 38.8",
+    "expected_output": {
+      "response": "Moving to coordinates (-7.4, 38.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -7.4,
+        "y": 38.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -33, 15",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-33, 15).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.0,
+        "y": 15.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -8, -20",
+    "expected_output": {
+      "response": "Navigating to point (-8, -20).",
+      "command": "move_to",
+      "command_params": {
+        "x": -8.0,
+        "y": -20.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 15, -36",
+    "expected_output": {
+      "response": "Proceeding to coordinates (15, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -18.9, -29.8",
+    "expected_output": {
+      "response": "Going to coordinates (-18.9, -29.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -18.9,
+        "y": -29.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -49, -10",
+    "expected_output": {
+      "response": "Moving to point (-49, -10).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.0,
+        "y": -10.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 0.9, -45.5",
+    "expected_output": {
+      "response": "Navigating to point (0.9, -45.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.9,
+        "y": -45.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 8.6, 49.3",
+    "expected_output": {
+      "response": "Heading to position (8.6, 49.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.6,
+        "y": 49.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -36, y: -22",
+    "expected_output": {
+      "response": "Moving to coordinates (-36, -22).",
+      "command": "move_to",
+      "command_params": {
+        "x": -36.0,
+        "y": -22.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -3.9, 25.8",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-3.9, 25.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.9,
+        "y": 25.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-44.7 y=7.7",
+    "expected_output": {
+      "response": "Traveling to coordinates (-44.7, 7.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.7,
+        "y": 7.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 17.5, 26.1",
+    "expected_output": {
+      "response": "Moving to location (17.5, 26.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 17.5,
+        "y": 26.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 7.7, 48.9",
+    "expected_output": {
+      "response": "Navigating to point (7.7, 48.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.7,
+        "y": 48.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 40.4, -31.5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (40.4, -31.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.4,
+        "y": -31.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -31, 28.4",
+    "expected_output": {
+      "response": "Moving to location (-31.0, 28.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -31.0,
+        "y": 28.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -44.2, -45.8",
+    "expected_output": {
+      "response": "Going to coordinates (-44.2, -45.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.2,
+        "y": -45.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -1.1, 44.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-1.1, 44.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.1,
+        "y": 44.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 2, -38",
+    "expected_output": {
+      "response": "Moving straight to (2, -38).",
+      "command": "move_to",
+      "command_params": {
+        "x": 2.0,
+        "y": -38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 28, -1",
+    "expected_output": {
+      "response": "Moving to location (28, -1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 28.0,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 12, -36",
+    "expected_output": {
+      "response": "Proceeding to coordinates (12, -36).",
+      "command": "move_to",
+      "command_params": {
+        "x": 12.0,
+        "y": -36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 29, -27",
+    "expected_output": {
+      "response": "Moving to coordinates (29, -27).",
+      "command": "move_to",
+      "command_params": {
+        "x": 29.0,
+        "y": -27.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-12.8, 29.5)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-12.8, 29.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -12.8,
+        "y": 29.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -6.1, -16.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-6.1, -16.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -6.1,
+        "y": -16.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 40, -17",
+    "expected_output": {
+      "response": "Moving to coordinates (40, -17).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.0,
+        "y": -17.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-3.5 y=-41",
+    "expected_output": {
+      "response": "Traveling to coordinates (-3.5, -41.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.5,
+        "y": -41.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -35.3, -29.5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-35.3, -29.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -35.3,
+        "y": -29.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 50, 32",
+    "expected_output": {
+      "response": "Going to coordinates (50.0, 32.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 50.0,
+        "y": 32.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -26.2, y: -17.7",
+    "expected_output": {
+      "response": "Moving to coordinates (-26.2, -17.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -26.2,
+        "y": -17.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 0.5, -0.3",
+    "expected_output": {
+      "response": "Moving to location (0.5, -0.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.5,
+        "y": -0.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 22, 24",
+    "expected_output": {
+      "response": "Navigating to point (22, 24).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.0,
+        "y": 24.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -20, 32.2",
+    "expected_output": {
+      "response": "Going to coordinates (-20.0, 32.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -20.0,
+        "y": 32.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=9 y=-34",
+    "expected_output": {
+      "response": "Traveling to coordinates (9, -34).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.0,
+        "y": -34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 0, 0",
+    "expected_output": {
+      "response": "Moving to coordinates (0.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 40, 0",
+    "expected_output": {
+      "response": "Moving to coordinates (40, 0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 21, -18",
+    "expected_output": {
+      "response": "Going to coordinates (21, -18).",
+      "command": "move_to",
+      "command_params": {
+        "x": 21.0,
+        "y": -18.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -4, 42.4",
+    "expected_output": {
+      "response": "Heading to position (-4.0, 42.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -4.0,
+        "y": 42.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 1, y: 0",
+    "expected_output": {
+      "response": "Moving to coordinates (1.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -44.8, -27.2",
+    "expected_output": {
+      "response": "Navigating to point (-44.8, -27.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.8,
+        "y": -27.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -47, 9",
+    "expected_output": {
+      "response": "Moving to coordinates (-47, 9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -47.0,
+        "y": 9.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 13, -47",
+    "expected_output": {
+      "response": "Proceeding to coordinates (13, -47).",
+      "command": "move_to",
+      "command_params": {
+        "x": 13.0,
+        "y": -47.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 38.6, 42.9",
+    "expected_output": {
+      "response": "Moving straight to (38.6, 42.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 38.6,
+        "y": 42.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 12, 31",
+    "expected_output": {
+      "response": "Proceeding to coordinates (12, 31).",
+      "command": "move_to",
+      "command_params": {
+        "x": 12.0,
+        "y": 31.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 48, y: 14",
+    "expected_output": {
+      "response": "Moving to coordinates (48, 14).",
+      "command": "move_to",
+      "command_params": {
+        "x": 48.0,
+        "y": 14.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -44.6, -8.6",
+    "expected_output": {
+      "response": "Navigating to point (-44.6, -8.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.6,
+        "y": -8.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 33.2, 20.8",
+    "expected_output": {
+      "response": "Moving to point (33.2, 20.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 33.2,
+        "y": 20.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -40.5, 42",
+    "expected_output": {
+      "response": "Going to coordinates (-40.5, 42.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -40.5,
+        "y": 42.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -16.4, -36.9",
+    "expected_output": {
+      "response": "Going to coordinates (-16.4, -36.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.4,
+        "y": -36.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 49.6, 46",
+    "expected_output": {
+      "response": "Navigating to point (49.6, 46.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 49.6,
+        "y": 46.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 27.7, 48.3",
+    "expected_output": {
+      "response": "Moving to coordinates (27.7, 48.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 27.7,
+        "y": 48.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 16, 15",
+    "expected_output": {
+      "response": "Moving to coordinates (16, 15).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": 15.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -14.5, 7.8",
+    "expected_output": {
+      "response": "Moving to point (-14.5, 7.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.5,
+        "y": 7.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -33.7, 20.1",
+    "expected_output": {
+      "response": "Moving to location (-33.7, 20.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.7,
+        "y": 20.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -34.7, y: 48.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-34.7, 48.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -34.7,
+        "y": 48.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -0.4, -27.2",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-0.4, -27.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.4,
+        "y": -27.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -47.5, -20.6",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-47.5, -20.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -47.5,
+        "y": -20.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 27.8, -35.7",
+    "expected_output": {
+      "response": "Moving straight to (27.8, -35.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 27.8,
+        "y": -35.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 34.5, 33.5",
+    "expected_output": {
+      "response": "Moving straight to (34.5, 33.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 34.5,
+        "y": 33.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-41 y=-28",
+    "expected_output": {
+      "response": "Traveling to coordinates (-41.0, -28.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -41.0,
+        "y": -28.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 40, -41",
+    "expected_output": {
+      "response": "Heading to position (40, -41).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.0,
+        "y": -41.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 31.1, 32.8",
+    "expected_output": {
+      "response": "Moving to coordinates (31.1, 32.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 31.1,
+        "y": 32.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 1, y: 0",
+    "expected_output": {
+      "response": "Moving to coordinates (1.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 30.9, 36.2",
+    "expected_output": {
+      "response": "Going to coordinates (30.9, 36.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.9,
+        "y": 36.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 5, 32",
+    "expected_output": {
+      "response": "Moving straight to (5, 32).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.0,
+        "y": 32.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 14, -7.5",
+    "expected_output": {
+      "response": "Moving to coordinates (14.0, -7.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 14.0,
+        "y": -7.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -45.9, -32.9",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-45.9, -32.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -45.9,
+        "y": -32.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (32, 31.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (32.0, 31.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 32.0,
+        "y": 31.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 20.8, 1.4",
+    "expected_output": {
+      "response": "Moving to coordinates (20.8, 1.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 20.8,
+        "y": 1.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-8.4, -45)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-8.4, -45.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -8.4,
+        "y": -45.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -48.9, -15.5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-48.9, -15.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -48.9,
+        "y": -15.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 39, 33",
+    "expected_output": {
+      "response": "Moving to coordinates (39, 33).",
+      "command": "move_to",
+      "command_params": {
+        "x": 39.0,
+        "y": 33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=21.9 y=45.9",
+    "expected_output": {
+      "response": "Traveling to coordinates (21.9, 45.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 21.9,
+        "y": 45.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -29.9, -24.7",
+    "expected_output": {
+      "response": "Navigating to point (-29.9, -24.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -29.9,
+        "y": -24.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=24 y=34.9",
+    "expected_output": {
+      "response": "Traveling to coordinates (24.0, 34.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 24.0,
+        "y": 34.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -3, -5",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-3, -5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.0,
+        "y": -5.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 30.7, -11.9",
+    "expected_output": {
+      "response": "Navigating to point (30.7, -11.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.7,
+        "y": -11.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -11, -34",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-11, -34).",
+      "command": "move_to",
+      "command_params": {
+        "x": -11.0,
+        "y": -34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 100, 100",
+    "expected_output": {
+      "response": "Moving to coordinates (100.0, 100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=45.8 y=-45.4",
+    "expected_output": {
+      "response": "Traveling to coordinates (45.8, -45.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 45.8,
+        "y": -45.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 40.2, 46.2",
+    "expected_output": {
+      "response": "Going to coordinates (40.2, 46.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.2,
+        "y": 46.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 17, y: 26",
+    "expected_output": {
+      "response": "Moving to coordinates (17, 26).",
+      "command": "move_to",
+      "command_params": {
+        "x": 17.0,
+        "y": 26.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 10.5, y: -31",
+    "expected_output": {
+      "response": "Moving to coordinates (10.5, -31.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 10.5,
+        "y": -31.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 14.6, -13.4",
+    "expected_output": {
+      "response": "Moving to coordinates (14.6, -13.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 14.6,
+        "y": -13.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -9.8, -37.2",
+    "expected_output": {
+      "response": "Going to coordinates (-9.8, -37.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.8,
+        "y": -37.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -6, y: 37.7",
+    "expected_output": {
+      "response": "Moving to coordinates (-6.0, 37.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -6.0,
+        "y": 37.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 36, -18",
+    "expected_output": {
+      "response": "Moving to coordinates (36, -18).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.0,
+        "y": -18.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 24.8, -1",
+    "expected_output": {
+      "response": "Heading to position (24.8, -1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 24.8,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 7.8, 31.6",
+    "expected_output": {
+      "response": "Moving to coordinates (7.8, 31.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.8,
+        "y": 31.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -21.3, -28.2",
+    "expected_output": {
+      "response": "Navigating to point (-21.3, -28.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -21.3,
+        "y": -28.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 34.3, -49.7",
+    "expected_output": {
+      "response": "Proceeding to coordinates (34.3, -49.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 34.3,
+        "y": -49.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (6.5, -39.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (6.5, -39.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 6.5,
+        "y": -39.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 0, 46",
+    "expected_output": {
+      "response": "Moving to location (0, 46).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 46.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -6, y: -39",
+    "expected_output": {
+      "response": "Moving to coordinates (-6, -39).",
+      "command": "move_to",
+      "command_params": {
+        "x": -6.0,
+        "y": -39.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (24.3, -41.7)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (24.3, -41.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 24.3,
+        "y": -41.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=5.5 y=41.6",
+    "expected_output": {
+      "response": "Traveling to coordinates (5.5, 41.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.5,
+        "y": 41.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 5.5, 6.9",
+    "expected_output": {
+      "response": "Heading to position (5.5, 6.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.5,
+        "y": 6.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 9, 36",
+    "expected_output": {
+      "response": "Moving to coordinates (9, 36).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.0,
+        "y": 36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-25 y=-19.5",
+    "expected_output": {
+      "response": "Traveling to coordinates (-25.0, -19.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -25.0,
+        "y": -19.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 28, 19",
+    "expected_output": {
+      "response": "Moving straight to (28, 19).",
+      "command": "move_to",
+      "command_params": {
+        "x": 28.0,
+        "y": 19.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -37.9, 1.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-37.9, 1.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -37.9,
+        "y": 1.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -1, -1",
+    "expected_output": {
+      "response": "Going to coordinates (-1.0, -1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.0,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 30.1, -26",
+    "expected_output": {
+      "response": "Moving to point (30.1, -26.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.1,
+        "y": -26.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 40.5, 6.3",
+    "expected_output": {
+      "response": "Navigating to point (40.5, 6.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.5,
+        "y": 6.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 35.4, 35.3",
+    "expected_output": {
+      "response": "Moving straight to (35.4, 35.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 35.4,
+        "y": 35.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -3.4, y: -45.4",
+    "expected_output": {
+      "response": "Moving to coordinates (-3.4, -45.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.4,
+        "y": -45.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -16.8, -13.3",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-16.8, -13.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.8,
+        "y": -13.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 34, 3",
+    "expected_output": {
+      "response": "Moving to point (34, 3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 34.0,
+        "y": 3.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 11.7, -47.5",
+    "expected_output": {
+      "response": "Moving to coordinates (11.7, -47.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 11.7,
+        "y": -47.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -14.8, 39.2",
+    "expected_output": {
+      "response": "Moving to coordinates (-14.8, 39.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -14.8,
+        "y": 39.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -13, 29",
+    "expected_output": {
+      "response": "Moving to location (-13, 29).",
+      "command": "move_to",
+      "command_params": {
+        "x": -13.0,
+        "y": 29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -46.1, -6.1",
+    "expected_output": {
+      "response": "Moving to coordinates (-46.1, -6.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.1,
+        "y": -6.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-36.3 y=16.6",
+    "expected_output": {
+      "response": "Traveling to coordinates (-36.3, 16.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -36.3,
+        "y": 16.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -29.1, y: 45",
+    "expected_output": {
+      "response": "Moving to coordinates (-29.1, 45.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -29.1,
+        "y": 45.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -32.6, -4.5",
+    "expected_output": {
+      "response": "Moving to point (-32.6, -4.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -32.6,
+        "y": -4.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 17.8, 32.6",
+    "expected_output": {
+      "response": "Moving straight to (17.8, 32.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 17.8,
+        "y": 32.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -47, 25",
+    "expected_output": {
+      "response": "Heading to position (-47, 25).",
+      "command": "move_to",
+      "command_params": {
+        "x": -47.0,
+        "y": 25.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -46, -23.3",
+    "expected_output": {
+      "response": "Moving to location (-46.0, -23.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.0,
+        "y": -23.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 12.2, 22",
+    "expected_output": {
+      "response": "Going to coordinates (12.2, 22.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 12.2,
+        "y": 22.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -33, -11.4",
+    "expected_output": {
+      "response": "Heading to position (-33.0, -11.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.0,
+        "y": -11.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 36.6, -19.1",
+    "expected_output": {
+      "response": "Navigating to point (36.6, -19.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.6,
+        "y": -19.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-28.6 y=15.3",
+    "expected_output": {
+      "response": "Traveling to coordinates (-28.6, 15.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -28.6,
+        "y": 15.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -33.2, y: 37.3",
+    "expected_output": {
+      "response": "Moving to coordinates (-33.2, 37.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.2,
+        "y": 37.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 31.1, 39.2",
+    "expected_output": {
+      "response": "Moving straight to (31.1, 39.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 31.1,
+        "y": 39.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 48, -29",
+    "expected_output": {
+      "response": "Proceeding to coordinates (48, -29).",
+      "command": "move_to",
+      "command_params": {
+        "x": 48.0,
+        "y": -29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position -9.5, 1.6",
+    "expected_output": {
+      "response": "Heading to position (-9.5, 1.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.5,
+        "y": 1.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -37.1, -23.2",
+    "expected_output": {
+      "response": "Moving to location (-37.1, -23.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -37.1,
+        "y": -23.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 39, 2",
+    "expected_output": {
+      "response": "Going to coordinates (39, 2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 39.0,
+        "y": 2.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -42.8, -35.1",
+    "expected_output": {
+      "response": "Navigating to point (-42.8, -35.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -42.8,
+        "y": -35.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 40.2, 29.4",
+    "expected_output": {
+      "response": "Proceeding to coordinates (40.2, 29.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.2,
+        "y": 29.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-25 y=20",
+    "expected_output": {
+      "response": "Traveling to coordinates (-25, 20).",
+      "command": "move_to",
+      "command_params": {
+        "x": -25.0,
+        "y": 20.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -27.3, 12.3",
+    "expected_output": {
+      "response": "Moving to location (-27.3, 12.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -27.3,
+        "y": 12.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 100, 100",
+    "expected_output": {
+      "response": "Moving straight to (100.0, 100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -43, 46.3",
+    "expected_output": {
+      "response": "Moving to coordinates (-43.0, 46.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.0,
+        "y": 46.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (36, 10)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (36, 10).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.0,
+        "y": 10.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 0, 44",
+    "expected_output": {
+      "response": "Moving to location (0, 44).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.0,
+        "y": 44.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -13, 34.7",
+    "expected_output": {
+      "response": "Going to coordinates (-13.0, 34.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -13.0,
+        "y": 34.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -36.6, 2.5",
+    "expected_output": {
+      "response": "Moving to point (-36.6, 2.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -36.6,
+        "y": 2.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 15.8, 19.5",
+    "expected_output": {
+      "response": "Moving to coordinates (15.8, 19.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.8,
+        "y": 19.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -30.2, -5.8",
+    "expected_output": {
+      "response": "Moving to coordinates (-30.2, -5.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -30.2,
+        "y": -5.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -100, -100",
+    "expected_output": {
+      "response": "Moving to point (-100.0, -100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -100.0,
+        "y": -100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -42.5, -29.3",
+    "expected_output": {
+      "response": "Moving to point (-42.5, -29.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -42.5,
+        "y": -29.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-30 y=39",
+    "expected_output": {
+      "response": "Traveling to coordinates (-30, 39).",
+      "command": "move_to",
+      "command_params": {
+        "x": -30.0,
+        "y": 39.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 15.4, 26.9",
+    "expected_output": {
+      "response": "Moving straight to (15.4, 26.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.4,
+        "y": 26.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 47.2, 1.5",
+    "expected_output": {
+      "response": "Moving to coordinates (47.2, 1.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 47.2,
+        "y": 1.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 16.4, -14.9",
+    "expected_output": {
+      "response": "Going to coordinates (16.4, -14.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.4,
+        "y": -14.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 17.9, 39.6",
+    "expected_output": {
+      "response": "Proceeding to coordinates (17.9, 39.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 17.9,
+        "y": 39.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -48.4, -28.4",
+    "expected_output": {
+      "response": "Moving to point (-48.4, -28.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -48.4,
+        "y": -28.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (7.1, -17.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (7.1, -17.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.1,
+        "y": -17.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=5.3 y=42.7",
+    "expected_output": {
+      "response": "Traveling to coordinates (5.3, 42.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 5.3,
+        "y": 42.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -48, -28.1",
+    "expected_output": {
+      "response": "Moving straight to (-48.0, -28.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -48.0,
+        "y": -28.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -11.1, 34.6",
+    "expected_output": {
+      "response": "Moving to location (-11.1, 34.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -11.1,
+        "y": 34.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (100, 100)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (100.0, 100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 100.0,
+        "y": 100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-46.8 y=-1.4",
+    "expected_output": {
+      "response": "Traveling to coordinates (-46.8, -1.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.8,
+        "y": -1.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -41.1, -8.6",
+    "expected_output": {
+      "response": "Moving straight to (-41.1, -8.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -41.1,
+        "y": -8.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 32.1, y: 10.2",
+    "expected_output": {
+      "response": "Moving to coordinates (32.1, 10.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 32.1,
+        "y": 10.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=12.3 y=-11.5",
+    "expected_output": {
+      "response": "Traveling to coordinates (12.3, -11.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 12.3,
+        "y": -11.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (43.2, 38.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (43.2, 38.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 43.2,
+        "y": 38.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 2.9, -2.4",
+    "expected_output": {
+      "response": "Moving to point (2.9, -2.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 2.9,
+        "y": -2.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 28.1, y: 24.9",
+    "expected_output": {
+      "response": "Moving to coordinates (28.1, 24.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 28.1,
+        "y": 24.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -46.2, y: -28.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-46.2, -28.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -46.2,
+        "y": -28.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 4.6, -6.1",
+    "expected_output": {
+      "response": "Moving to point (4.6, -6.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 4.6,
+        "y": -6.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -17.1, 49",
+    "expected_output": {
+      "response": "Going to coordinates (-17.1, 49.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -17.1,
+        "y": 49.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -34.1, -37.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-34.1, -37.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -34.1,
+        "y": -37.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-48, -38)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-48, -38).",
+      "command": "move_to",
+      "command_params": {
+        "x": -48.0,
+        "y": -38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 9.3, 6.5",
+    "expected_output": {
+      "response": "Moving to coordinates (9.3, 6.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 9.3,
+        "y": 6.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 29.9, -3.8",
+    "expected_output": {
+      "response": "Moving to location (29.9, -3.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 29.9,
+        "y": -3.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -24.5, y: -40.2",
+    "expected_output": {
+      "response": "Moving to coordinates (-24.5, -40.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -24.5,
+        "y": -40.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -28, 28",
+    "expected_output": {
+      "response": "Navigating to point (-28, 28).",
+      "command": "move_to",
+      "command_params": {
+        "x": -28.0,
+        "y": 28.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -33, 4",
+    "expected_output": {
+      "response": "Moving to coordinates (-33, 4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.0,
+        "y": 4.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -19.5, 43.9",
+    "expected_output": {
+      "response": "Moving to location (-19.5, 43.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -19.5,
+        "y": 43.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -44.3, 48.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-44.3, 48.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.3,
+        "y": 48.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -49, 13",
+    "expected_output": {
+      "response": "Moving to coordinates (-49, 13).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.0,
+        "y": 13.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 0.5, -12",
+    "expected_output": {
+      "response": "Going to coordinates (0.5, -12.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.5,
+        "y": -12.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -100, -100",
+    "expected_output": {
+      "response": "Moving to location (-100.0, -100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -100.0,
+        "y": -100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 36.9, 35.8",
+    "expected_output": {
+      "response": "Navigating to point (36.9, 35.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.9,
+        "y": 35.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -9, 37",
+    "expected_output": {
+      "response": "Moving to point (-9, 37).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.0,
+        "y": 37.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 40.8, 15.6",
+    "expected_output": {
+      "response": "Moving to coordinates (40.8, 15.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.8,
+        "y": 15.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 33, -3",
+    "expected_output": {
+      "response": "Heading to position (33, -3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 33.0,
+        "y": -3.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 36.2, -4.7",
+    "expected_output": {
+      "response": "Moving to point (36.2, -4.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.2,
+        "y": -4.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -38.2, 18.8",
+    "expected_output": {
+      "response": "Moving to coordinates (-38.2, 18.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -38.2,
+        "y": 18.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-16, 33)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-16, 33).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.0,
+        "y": 33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-26.2 y=-39.4",
+    "expected_output": {
+      "response": "Traveling to coordinates (-26.2, -39.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -26.2,
+        "y": -39.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -43, 30",
+    "expected_output": {
+      "response": "Moving to coordinates (-43.0, 30.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.0,
+        "y": 30.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 1, 0",
+    "expected_output": {
+      "response": "Moving to coordinates (1.0, 0.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 1.0,
+        "y": 0.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 23.6, 26",
+    "expected_output": {
+      "response": "Moving to point (23.6, 26.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 23.6,
+        "y": 26.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -20, 36",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-20, 36).",
+      "command": "move_to",
+      "command_params": {
+        "x": -20.0,
+        "y": 36.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -43, 4.1",
+    "expected_output": {
+      "response": "Navigating to point (-43.0, 4.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.0,
+        "y": 4.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -17, -37",
+    "expected_output": {
+      "response": "Moving straight to (-17, -37).",
+      "command": "move_to",
+      "command_params": {
+        "x": -17.0,
+        "y": -37.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 35, 35",
+    "expected_output": {
+      "response": "Moving to coordinates (35, 35).",
+      "command": "move_to",
+      "command_params": {
+        "x": 35.0,
+        "y": 35.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -37, 12.1",
+    "expected_output": {
+      "response": "Moving straight to (-37.0, 12.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -37.0,
+        "y": 12.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 49.6, 29",
+    "expected_output": {
+      "response": "Moving to point (49.6, 29.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 49.6,
+        "y": 29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 16, -23",
+    "expected_output": {
+      "response": "Moving to location (16, -23).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": -23.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 30, 28",
+    "expected_output": {
+      "response": "Navigating to point (30, 28).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.0,
+        "y": 28.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 8.1, y: 30.3",
+    "expected_output": {
+      "response": "Moving to coordinates (8.1, 30.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 8.1,
+        "y": 30.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -11, -30",
+    "expected_output": {
+      "response": "Moving to coordinates (-11, -30).",
+      "command": "move_to",
+      "command_params": {
+        "x": -11.0,
+        "y": -30.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 14, y: -9",
+    "expected_output": {
+      "response": "Moving to coordinates (14, -9).",
+      "command": "move_to",
+      "command_params": {
+        "x": 14.0,
+        "y": -9.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -16, -29",
+    "expected_output": {
+      "response": "Going to coordinates (-16, -29).",
+      "command": "move_to",
+      "command_params": {
+        "x": -16.0,
+        "y": -29.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -44.1, 0.1",
+    "expected_output": {
+      "response": "Moving straight to (-44.1, 0.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.1,
+        "y": 0.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 48, -24",
+    "expected_output": {
+      "response": "Going to coordinates (48, -24).",
+      "command": "move_to",
+      "command_params": {
+        "x": 48.0,
+        "y": -24.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -29.8, -47.5",
+    "expected_output": {
+      "response": "Moving to point (-29.8, -47.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -29.8,
+        "y": -47.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 44.4, -24.2",
+    "expected_output": {
+      "response": "Moving to coordinates (44.4, -24.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 44.4,
+        "y": -24.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -3, 34",
+    "expected_output": {
+      "response": "Moving straight to (-3, 34).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.0,
+        "y": 34.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -0.1, -49",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-0.1, -49.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.1,
+        "y": -49.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=36.8 y=-49",
+    "expected_output": {
+      "response": "Traveling to coordinates (36.8, -49.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 36.8,
+        "y": -49.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 22.7, 25.3",
+    "expected_output": {
+      "response": "Going to coordinates (22.7, 25.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.7,
+        "y": 25.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -7.7, -0.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-7.7, -0.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -7.7,
+        "y": -0.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -29, y: -3",
+    "expected_output": {
+      "response": "Moving to coordinates (-29, -3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -29.0,
+        "y": -3.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -2, -49",
+    "expected_output": {
+      "response": "Moving to point (-2, -49).",
+      "command": "move_to",
+      "command_params": {
+        "x": -2.0,
+        "y": -49.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 45, 7",
+    "expected_output": {
+      "response": "Going to coordinates (45, 7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 45.0,
+        "y": 7.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (40.5, -4.7)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (40.5, -4.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.5,
+        "y": -4.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 43.7, 43.3",
+    "expected_output": {
+      "response": "Moving straight to (43.7, 43.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 43.7,
+        "y": 43.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 13.6, 0.6",
+    "expected_output": {
+      "response": "Moving to location (13.6, 0.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 13.6,
+        "y": 0.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -13.3, 0.7",
+    "expected_output": {
+      "response": "Going to coordinates (-13.3, 0.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -13.3,
+        "y": 0.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 33.4, 46.1",
+    "expected_output": {
+      "response": "Proceeding to coordinates (33.4, 46.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 33.4,
+        "y": 46.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -33, -27.8",
+    "expected_output": {
+      "response": "Moving straight to (-33.0, -27.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -33.0,
+        "y": -27.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -2.7, 35.9",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-2.7, 35.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -2.7,
+        "y": 35.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-49.1 y=11.9",
+    "expected_output": {
+      "response": "Traveling to coordinates (-49.1, 11.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.1,
+        "y": 11.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 40.3, -2",
+    "expected_output": {
+      "response": "Moving to coordinates (40.3, -2.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": 40.3,
+        "y": -2.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -12.9, 16.9",
+    "expected_output": {
+      "response": "Moving to coordinates (-12.9, 16.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -12.9,
+        "y": 16.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to -28.6, 28.8",
+    "expected_output": {
+      "response": "Proceeding to coordinates (-28.6, 28.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": -28.6,
+        "y": 28.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=30.7 y=5.2",
+    "expected_output": {
+      "response": "Traveling to coordinates (30.7, 5.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": 30.7,
+        "y": 5.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -9.7, 38",
+    "expected_output": {
+      "response": "Moving to location (-9.7, 38.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -9.7,
+        "y": 38.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (22, 33)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (22, 33).",
+      "command": "move_to",
+      "command_params": {
+        "x": 22.0,
+        "y": 33.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -40.2, 30",
+    "expected_output": {
+      "response": "Moving to coordinates (-40.2, 30.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -40.2,
+        "y": 30.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -28.8, y: -42.6",
+    "expected_output": {
+      "response": "Moving to coordinates (-28.8, -42.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -28.8,
+        "y": -42.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to -3.9, 14.7",
+    "expected_output": {
+      "response": "Moving to coordinates (-3.9, 14.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -3.9,
+        "y": 14.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 49, -28",
+    "expected_output": {
+      "response": "Heading to position (49, -28).",
+      "command": "move_to",
+      "command_params": {
+        "x": 49.0,
+        "y": -28.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 0.3, 35.7",
+    "expected_output": {
+      "response": "Moving to point (0.3, 35.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 0.3,
+        "y": 35.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: 15.5, y: 2.8",
+    "expected_output": {
+      "response": "Moving to coordinates (15.5, 2.8).",
+      "command": "move_to",
+      "command_params": {
+        "x": 15.5,
+        "y": 2.8
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point 47.9, 11.1",
+    "expected_output": {
+      "response": "Moving to point (47.9, 11.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": 47.9,
+        "y": 11.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -1, y: -1",
+    "expected_output": {
+      "response": "Moving to coordinates (-1.0, -1.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -1.0,
+        "y": -1.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates -34.6, -43.5",
+    "expected_output": {
+      "response": "Moving to coordinates (-34.6, -43.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": -34.6,
+        "y": -43.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 7.3, 2.4",
+    "expected_output": {
+      "response": "Moving to coordinates (7.3, 2.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 7.3,
+        "y": 2.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-43.1, -3.9)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-43.1, -3.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.1,
+        "y": -3.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to 39.4, 14.7",
+    "expected_output": {
+      "response": "Going to coordinates (39.4, 14.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": 39.4,
+        "y": 14.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-34, -10)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-34, -10).",
+      "command": "move_to",
+      "command_params": {
+        "x": -34.0,
+        "y": -10.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -49, 35",
+    "expected_output": {
+      "response": "Going to coordinates (-49, 35).",
+      "command": "move_to",
+      "command_params": {
+        "x": -49.0,
+        "y": 35.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please go to -43.5, 5.7",
+    "expected_output": {
+      "response": "Going to coordinates (-43.5, 5.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -43.5,
+        "y": 5.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go to position 16.3, -1.6",
+    "expected_output": {
+      "response": "Heading to position (16.3, -1.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.3,
+        "y": -1.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location 48, -19",
+    "expected_output": {
+      "response": "Moving to location (48, -19).",
+      "command": "move_to",
+      "command_params": {
+        "x": 48.0,
+        "y": -19.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "can you move to point -44.9, 49.3",
+    "expected_output": {
+      "response": "Moving to point (-44.9, 49.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": -44.9,
+        "y": 49.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-38 y=44.1",
+    "expected_output": {
+      "response": "Traveling to coordinates (-38.0, 44.1).",
+      "command": "move_to",
+      "command_params": {
+        "x": -38.0,
+        "y": 44.1
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -100, -100",
+    "expected_output": {
+      "response": "Moving to location (-100.0, -100.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -100.0,
+        "y": -100.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -20.9, -5.9",
+    "expected_output": {
+      "response": "Moving straight to (-20.9, -5.9).",
+      "command": "move_to",
+      "command_params": {
+        "x": -20.9,
+        "y": -5.9
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to coordinates 44.9, 2.6",
+    "expected_output": {
+      "response": "Moving to coordinates (44.9, 2.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": 44.9,
+        "y": 2.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -7.1, y: -23.2",
+    "expected_output": {
+      "response": "Moving to coordinates (-7.1, -23.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -7.1,
+        "y": -23.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point -7.6, 31.6",
+    "expected_output": {
+      "response": "Navigating to point (-7.6, 31.6).",
+      "command": "move_to",
+      "command_params": {
+        "x": -7.6,
+        "y": 31.6
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "head over to location -26.8, -5",
+    "expected_output": {
+      "response": "Moving to location (-26.8, -5.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -26.8,
+        "y": -5.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "proceed to 47.4, -40.3",
+    "expected_output": {
+      "response": "Proceeding to coordinates (47.4, -40.3).",
+      "command": "move_to",
+      "command_params": {
+        "x": 47.4,
+        "y": -40.3
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "navigate to point 14.7, 23.4",
+    "expected_output": {
+      "response": "Navigating to point (14.7, 23.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": 14.7,
+        "y": 23.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "travel to x=-47.4 y=-10.7",
+    "expected_output": {
+      "response": "Traveling to coordinates (-47.4, -10.7).",
+      "command": "move_to",
+      "command_params": {
+        "x": -47.4,
+        "y": -10.7
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to -0.7, 23.4",
+    "expected_output": {
+      "response": "Moving straight to (-0.7, 23.4).",
+      "command": "move_to",
+      "command_params": {
+        "x": -0.7,
+        "y": 23.4
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move to 16, 14",
+    "expected_output": {
+      "response": "Moving to coordinates (16, 14).",
+      "command": "move_to",
+      "command_params": {
+        "x": 16.0,
+        "y": 14.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Move robot to coordinates (-22.5, 17.2)",
+    "expected_output": {
+      "response": "Moving robot to coordinates (-22.5, 17.2).",
+      "command": "move_to",
+      "command_params": {
+        "x": -22.5,
+        "y": 17.2
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "move to x: -5.8, y: -11",
+    "expected_output": {
+      "response": "Moving to coordinates (-5.8, -11.0).",
+      "command": "move_to",
+      "command_params": {
+        "x": -5.8,
+        "y": -11.0
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "go straight to 33.8, 23.5",
+    "expected_output": {
+      "response": "Moving straight to (33.8, 23.5).",
+      "command": "move_to",
+      "command_params": {
+        "x": 33.8,
+        "y": 23.5
+      }
+    },
+    "category": "move_to",
+    "type": "successful_command"
+  }
+]

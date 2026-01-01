@@ -1,0 +1,5252 @@
+[
+  {
+    "user_input": "start a patrol of second_floor 4 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 15 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for continuous rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 18 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 4 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 3 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for continuous rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 18 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 5 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 14 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 13 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 2 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 14 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor once",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 17 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 4 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for 9 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 7 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 10 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 9 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for 1 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 8 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 2 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 20 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 19 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 19
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 13 rounds",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 7 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 17 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for continuous rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 18 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 13 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 14 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 7 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor once",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 13 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 18 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 7 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 8 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 3 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 3 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 14 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 4 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor continuous times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 12 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 10 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 12 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 15 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 8 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 10 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 3 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 10 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 5 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 14 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 2 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for continuous rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 12 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor once",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 17 rounds",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 5 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 14 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 20 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for 2 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 18 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 18 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 17 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 4 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 2 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 9 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 1 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for continuous rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 11 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 17 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 7 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 17 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 14 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 18 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 19 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 19
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for continuous rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 4 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for continuous rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 16 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 4 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 2 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 4 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 19 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 19
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 7 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor continuous times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 18 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 11 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 2 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 7 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 17 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 15 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 13 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 13 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 11 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 14 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for continuous rounds",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms continuous times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 9 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 10 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 13 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 20 rounds",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 13 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor 19 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 19
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 10 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 3 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 10 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 11 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 6 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 6 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 11 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 3 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 13 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 14 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for continuous rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 15 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms once",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 3 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 3 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 2 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 10 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 2 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 8 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 15 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 15 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 15
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 5 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 5
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 9 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for continuous rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor once",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 9 times at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 16 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the bedrooms 3 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 3 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 3
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor continuous times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 2 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for 14 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 4 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms 2 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor bedrooms area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 20 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, once.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 7 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 7 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 7
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor 10 times at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 10 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 10
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 4 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 4
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a medium patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 13 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 13
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 14 rounds at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 2 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 16 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 16
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 6 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a slow patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 11
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 9 rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 11 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 12 rounds",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 12 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 12
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring bedrooms for 8 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 8
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor for 14 rounds at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 2 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor second_floor area medium speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 19 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 19
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 17 times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at slow speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "slow",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 2 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 2
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring first_floor for continuous rounds at medium speed",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol second_floor 20 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 20 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 20
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at fast speed, 6 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "fast",
+        "repeat_count": 6
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the bedrooms 14 times",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, 14 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 14
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the second_floor continuous times at slow speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at slow speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "slow",
+        "repeat_count": -1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the second_floor 17 times",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol first_floor 8 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 8 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor at fast speed",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at fast speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "fast",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "keep watching the first_floor continuously",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start patrolling the first_floor",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at slow speed, 2 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "slow",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "begin monitoring second_floor",
+    "expected_output": {
+      "response": "Starting patrol of second_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "second_floor",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "monitor first_floor area",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 17 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 17
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "guard the first_floor 9 times",
+    "expected_output": {
+      "response": "Starting patrol of first_floor at medium speed, 9 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "first_floor",
+        "speed": "medium",
+        "repeat_count": 9
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "patrol bedrooms continuously",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at medium speed, continuously.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "medium",
+        "repeat_count": 1
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "start a fast patrol of bedrooms",
+    "expected_output": {
+      "response": "Starting patrol of bedrooms at fast speed, 18 times.",
+      "command": "start_patrol",
+      "command_params": {
+        "route_id": "bedrooms",
+        "speed": "fast",
+        "repeat_count": 18
+      }
+    },
+    "category": "start_patrol",
+    "type": "successful_command"
+  }
+]

@@ -1,0 +1,5137 @@
+[
+  {
+    "user_input": "rotate 90 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 90 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 45 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 45 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 45.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 180 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 180 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate left by 30 degrees",
+    "expected_output": {
+      "response": "Rotating 30 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 30.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn right 60 degrees",
+    "expected_output": {
+      "response": "Turning 60 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 60.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "make a 270 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 270 degree clockwise rotation",
+      "command": "rotate",
+      "command_params": {
+        "angle": 270.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 120 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 120 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 120.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 15 degrees to the right",
+    "expected_output": {
+      "response": "Turning 15 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 15.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 225 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 225 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 225.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin left 75 degrees",
+    "expected_output": {
+      "response": "Spinning 75 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 75.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 300 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 300 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 300.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 22.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 22.5 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 22.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin right by 135 degrees",
+    "expected_output": {
+      "response": "Spinning 135 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 135.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 360 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 360 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 360.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the left 90 degrees",
+    "expected_output": {
+      "response": "Rotating 90 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 67.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 67.5 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 67.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn right 180 degrees",
+    "expected_output": {
+      "response": "Turning 180 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 450 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 450 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 450.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin left by 12 degrees",
+    "expected_output": {
+      "response": "Spinning 12 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 12.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 315 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 315 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 315.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate right 37.8 degrees",
+    "expected_output": {
+      "response": "Rotating 37.8 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 37.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 210 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 210 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 210.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn to the left 150 degrees",
+    "expected_output": {
+      "response": "Turning 150 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 150.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 5.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 5.5 degrees counter-clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 5.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin right 240 degrees",
+    "expected_output": {
+      "response": "Spinning 240 degrees clockwise",
+      "command": "rotate",
+      "command_params": {
+        "angle": 240.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 94.1 degrees to the right",
+    "expected_output": {
+      "response": "Turning 94.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 94.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 258.1 degrees to the left",
+    "expected_output": {
+      "response": "Turning 258.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 258.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 92.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 92.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 92.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 162 degrees to the right",
+    "expected_output": {
+      "response": "Spinning 162 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 162.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 33.8 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 33.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 33.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 230 degrees to the right",
+    "expected_output": {
+      "response": "Turning robot 230 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 230.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 81.7 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 81.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 81.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 176 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 176 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 176.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 95.2 degrees left",
+    "expected_output": {
+      "response": "Rotating 95.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 95.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 240 degrees to the left",
+    "expected_output": {
+      "response": "Turning 240 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 240.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 111.5 degrees",
+    "expected_output": {
+      "response": "Rotating 111.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 111.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 294.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 294.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 294.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 126.5 degrees right",
+    "expected_output": {
+      "response": "Turning 126.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 126.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 80.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 80.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 80.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 157 degrees",
+    "expected_output": {
+      "response": "Rotating 157 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 157.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 74 degree left rotation",
+    "expected_output": {
+      "response": "Making a 74 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 74.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 337.4 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 337.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 337.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 306 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 306 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 306.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 249.8 degrees to the left",
+    "expected_output": {
+      "response": "Turning robot 249.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 249.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 337.7 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 337.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 337.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 182.2 degree right rotation",
+    "expected_output": {
+      "response": "Making a 182.2 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 182.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 267.2 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 267.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 267.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 277 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 277 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 277.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 344.5 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 344.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 344.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 4 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 4.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 358.7 degrees right",
+    "expected_output": {
+      "response": "Turning 358.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 358.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 251.9 degree right rotation",
+    "expected_output": {
+      "response": "Making a 251.9 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 251.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 154.5 degrees right",
+    "expected_output": {
+      "response": "Rotating 154.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 154.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 6.6 degrees right",
+    "expected_output": {
+      "response": "Rotating 6.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 6.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 353.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 353.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 353.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 180 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 180 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 159.6 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 159.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 159.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 113 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 113 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 113.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 124 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 124 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 124.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 172 degrees to the left",
+    "expected_output": {
+      "response": "Turning robot 172 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 172.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 343.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 343.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 343.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 66.7 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 66.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 66.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 39.9 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 39.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 39.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 349.6 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 349.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 349.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 205 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 205 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 205.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 125.8 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 125.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 125.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 179 degree left rotation",
+    "expected_output": {
+      "response": "Making a 179 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 179.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 223.3 degrees to the right",
+    "expected_output": {
+      "response": "Turning robot 223.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 223.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 45 degrees to the right",
+    "expected_output": {
+      "response": "Turning 45 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 45.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 88.8 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 88.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 88.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 20.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 20.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 20.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 312 degrees left",
+    "expected_output": {
+      "response": "Rotating 312 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 312.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 70 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 70 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 70.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 138.2 degrees left",
+    "expected_output": {
+      "response": "Turning 138.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 138.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 236 degrees left",
+    "expected_output": {
+      "response": "Spinning 236.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 236.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 93.2 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 93.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 93.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 241 degrees left",
+    "expected_output": {
+      "response": "Turning 241.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 241.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 217.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 217.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 217.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 185.4 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 185.4 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 185.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 63.5 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 63.5 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 63.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 21 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 21 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 21.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 236.7 degrees to the right",
+    "expected_output": {
+      "response": "Turning 236.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 236.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 89.3 degrees left",
+    "expected_output": {
+      "response": "Rotating 89.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 89.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 47.5 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 47.5 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 47.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 332 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 332 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 332.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 334.6 degrees left",
+    "expected_output": {
+      "response": "Turning 334.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 334.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 50.1 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 50.1 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 50.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 354 degrees",
+    "expected_output": {
+      "response": "Rotating 354 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 354.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 111.8 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 111.8 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 111.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 62.5 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 62.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 62.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 273.4 degree left rotation",
+    "expected_output": {
+      "response": "Making a 273.4 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 273.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 279 degrees to the left",
+    "expected_output": {
+      "response": "Turning 279.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 279.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 164 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 164.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 164.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 336.8 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 336.8 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 336.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 218.8 degrees to the left",
+    "expected_output": {
+      "response": "Spinning 218.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 218.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 233 degrees",
+    "expected_output": {
+      "response": "Rotating 233 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 233.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate right by 106 degrees",
+    "expected_output": {
+      "response": "Rotating 106 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 106.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 180.1 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 180.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 180 degree to the left rotation",
+    "expected_output": {
+      "response": "Making a 180 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 182.1 degrees",
+    "expected_output": {
+      "response": "Rotating 182.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 182.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 198 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 198.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 198.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 272.7 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 272.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 272.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 181 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 181 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 181.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 323.8 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 323.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 323.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 81 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 81 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 81.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 69.6 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 69.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 69.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 241.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 241.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 241.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 65.4 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 65.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 65.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 190 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 190.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 190.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 225.2 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 225.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 225.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the left by 360 degrees",
+    "expected_output": {
+      "response": "Rotating 360 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 360.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 183.6 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 183.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 183.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 261 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 261 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 261.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 240.4 degrees left",
+    "expected_output": {
+      "response": "Rotating 240.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 240.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 90 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 90 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 189.1 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 189.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 189.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 299.8 degrees left",
+    "expected_output": {
+      "response": "Rotating 299.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 299.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 153 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 153 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 153.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 15 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 15 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 15.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 193.9 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 193.9 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 193.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 223.6 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 223.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 223.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 115 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 115 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 115.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 325.3 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 325.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 325.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 70.1 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 70.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 70.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 250.2 degrees to the right",
+    "expected_output": {
+      "response": "Rotating 250.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 250.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 227 degrees right",
+    "expected_output": {
+      "response": "Turning robot 227 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 227.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 0 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 0.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 83.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 83.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 83.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 333 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 333 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 333.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 356.6 degrees right",
+    "expected_output": {
+      "response": "Spinning 356.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 356.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 353.4 degrees to the right",
+    "expected_output": {
+      "response": "Turning 353.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 353.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 41 degrees",
+    "expected_output": {
+      "response": "Rotating 41 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 41.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 331.7 degrees right",
+    "expected_output": {
+      "response": "Turning robot 331.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 331.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 104.6 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 104.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 104.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 317.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 317.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 317.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 274.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 274.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 274.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 287.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 287.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 287.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 221 degrees to the left",
+    "expected_output": {
+      "response": "Turning robot 221 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 221.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 176.2 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 176.2 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 176.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 81.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 81.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 81.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 44.2 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 44.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 44.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 155.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 155.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 155.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 71 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 71 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 71.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 214.9 degrees to the right",
+    "expected_output": {
+      "response": "Turning 214.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 214.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 0 degree right rotation",
+    "expected_output": {
+      "response": "Making a 0 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 0.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 12.6 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 12.6 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 12.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 225 degrees to the right",
+    "expected_output": {
+      "response": "Rotating 225 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 225.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 65 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 65 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 65.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 4.7 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 4.7 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 4.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 149 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 149 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 149.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 338.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 338.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 338.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 222.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 222.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 222.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 48.4 degrees right",
+    "expected_output": {
+      "response": "Rotating 48.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 48.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 245 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 245 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 245.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 39 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 39 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 39.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 108.5 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 108.5 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 108.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 250.6 degrees left",
+    "expected_output": {
+      "response": "Turning 250.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 250.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 148.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 148.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 148.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 280.8 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 280.8 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 280.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 352.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 352.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 352.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 65.9 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 65.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 65.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 90 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 90 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 241.7 degree left rotation",
+    "expected_output": {
+      "response": "Making a 241.7 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 241.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 233 degrees to the left",
+    "expected_output": {
+      "response": "Turning 233 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 233.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 317.2 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 317.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 317.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 221 degrees",
+    "expected_output": {
+      "response": "Rotating 221 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 221.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 9.6 degrees to the right",
+    "expected_output": {
+      "response": "Spinning 9.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 9.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 294 degrees",
+    "expected_output": {
+      "response": "Rotating 294 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 294.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 133.4 degrees right",
+    "expected_output": {
+      "response": "Spinning 133.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 133.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 353 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 353 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 353.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 146.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 146.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 146.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 33 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 33 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 33.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 271.7 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 271.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 271.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 9.2 degree left rotation",
+    "expected_output": {
+      "response": "Making a 9.2 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 9.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 45 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 45 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 45.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 135 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 135 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 135.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 39.6 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 39.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 39.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 54.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 54.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 54.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 91 degrees right",
+    "expected_output": {
+      "response": "Turning robot 91 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 91.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 313.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 313.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 313.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 22.5 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 22.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 22.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 138.6 degrees",
+    "expected_output": {
+      "response": "Rotating 138.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 138.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 231.3 degrees right",
+    "expected_output": {
+      "response": "Turning 231.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 231.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 293 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 293 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 293.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 50 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 50.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 50.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 67.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 67.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 67.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 124.3 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 124.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 124.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 236.7 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 236.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 236.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 9.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 9.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 60 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 60 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 60.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 349.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 349.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 349.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 127.7 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 127.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 127.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 204.9 degrees left",
+    "expected_output": {
+      "response": "Turning 204.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 204.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 69.5 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 69.5 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 69.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 213.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 213.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 213.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 127.2 degrees to the left",
+    "expected_output": {
+      "response": "Turning 127.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 127.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 305.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 305.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 305.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 10.5 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 10.5 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 10.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 26.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 26.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 26.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate right by 118.5 degrees",
+    "expected_output": {
+      "response": "Rotating 118.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 118.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 180 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 180 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 158.8 degrees",
+    "expected_output": {
+      "response": "Rotating 158.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 158.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 229.4 degrees",
+    "expected_output": {
+      "response": "Rotating 229.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 229.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 51.4 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 51.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 51.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 192.4 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 192.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 192.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 51 degree to the right rotation",
+    "expected_output": {
+      "response": "Making a 51 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 51.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 11.6 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 11.6 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 11.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 289.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 289.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 289.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 25 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 25 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 25.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 172 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 172 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 172.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 104.7 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 104.7 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 104.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 102 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 102 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 102.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 61 degrees right",
+    "expected_output": {
+      "response": "Rotating 61.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 61.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the right by 40.1 degrees",
+    "expected_output": {
+      "response": "Rotating 40.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 40.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 113.9 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 113.9 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 113.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 3.3 degrees",
+    "expected_output": {
+      "response": "Rotating 3.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 3.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 212 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 212 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 212.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 5.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 5.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 177 degrees left",
+    "expected_output": {
+      "response": "Rotating 177 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 177.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 37.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 37.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 37.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 309.1 degrees",
+    "expected_output": {
+      "response": "Rotating 309.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 309.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 120.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 120.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 120.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 207.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 207.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 207.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 147.3 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 147.3 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 147.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 288.9 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 288.9 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 288.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 135 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 135 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 135.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 44 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 44 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 44.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 97 degrees to the left",
+    "expected_output": {
+      "response": "Spinning 97 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 97.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 90 degree right rotation",
+    "expected_output": {
+      "response": "Making a 90 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 272.7 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 272.7 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 272.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 148 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 148.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 148.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 340.5 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 340.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 340.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 102 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 102 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 102.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 333 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 333 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 333.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 229.7 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 229.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 229.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 174.3 degrees right",
+    "expected_output": {
+      "response": "Turning robot 174.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 174.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 155 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 155 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 155.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 90 degrees",
+    "expected_output": {
+      "response": "Rotating 90 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 206.9 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 206.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 206.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 338 degrees",
+    "expected_output": {
+      "response": "Rotating 338 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 338.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 298.9 degrees left",
+    "expected_output": {
+      "response": "Rotating 298.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 298.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 243 degrees to the left",
+    "expected_output": {
+      "response": "Turning robot 243 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 243.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 120.5 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 120.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 120.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 316.3 degrees",
+    "expected_output": {
+      "response": "Rotating 316.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 316.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 355 degree to the left rotation",
+    "expected_output": {
+      "response": "Making a 355 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 355.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the left by 325.6 degrees",
+    "expected_output": {
+      "response": "Rotating 325.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 325.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 244.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 244.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 244.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 288 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 288 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 288.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 261.9 degrees right",
+    "expected_output": {
+      "response": "Rotating 261.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 261.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 234.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 234.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 234.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 151.8 degrees",
+    "expected_output": {
+      "response": "Rotating 151.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 151.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 46 degrees right",
+    "expected_output": {
+      "response": "Turning 46 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 46.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 90 degrees right",
+    "expected_output": {
+      "response": "Turning 90 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 90.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 228.6 degrees",
+    "expected_output": {
+      "response": "Rotating 228.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 228.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 308 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 308 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 308.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 262.1 degrees",
+    "expected_output": {
+      "response": "Rotating 262.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 262.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 173 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 173 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 173.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 150 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 150 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 150.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 180 degrees right",
+    "expected_output": {
+      "response": "Rotating 180 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 180.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 270.9 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 270.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 270.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 144 degree left rotation",
+    "expected_output": {
+      "response": "Making a 144 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 144.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 113 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 113 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 113.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 212.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 212.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 212.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 86.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 86.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 86.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 271.2 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 271.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 271.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 224.9 degrees to the right",
+    "expected_output": {
+      "response": "Spinning 224.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 224.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 57.6 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 57.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 57.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 81.4 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 81.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 81.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 76.5 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 76.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 76.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 95.4 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 95.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 95.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the left by 247 degrees",
+    "expected_output": {
+      "response": "Rotating 247 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 247.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 359 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 359 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 359.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 70 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 70.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 70.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 37 degrees",
+    "expected_output": {
+      "response": "Rotating 37.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 37.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the right by 98 degrees",
+    "expected_output": {
+      "response": "Rotating 98 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 98.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 54.9 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 54.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 54.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 278.7 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 278.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 278.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 302.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 302.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 302.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 278 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 278 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 278.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 129.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 129.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 129.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 40.8 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 40.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 40.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 4 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 4.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 136.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 136.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 136.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 39 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 39 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 39.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 265 degrees",
+    "expected_output": {
+      "response": "Rotating 265 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 265.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the right by 245.7 degrees",
+    "expected_output": {
+      "response": "Rotating 245.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 245.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 291 degrees left",
+    "expected_output": {
+      "response": "Turning robot 291 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 291.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 119 degrees right",
+    "expected_output": {
+      "response": "Rotating 119 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 119.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 108.1 degrees",
+    "expected_output": {
+      "response": "Rotating 108.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 108.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 21 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 21 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 21.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 43.7 degrees right",
+    "expected_output": {
+      "response": "Spinning 43.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 43.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 147 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 147 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 147.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 218.3 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 218.3 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 218.3,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 280 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 280 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 280.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 16.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 16.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 16.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 70.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 70.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 70.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 344 degrees left",
+    "expected_output": {
+      "response": "Rotating 344.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 344.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 46 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 46 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 46.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 200 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 200 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 200.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 135 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 135 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 135.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 351 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 351 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 351.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 43.3 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 43.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 43.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 329.8 degrees to the right",
+    "expected_output": {
+      "response": "Turning robot 329.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 329.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 128.4 degrees to the right",
+    "expected_output": {
+      "response": "Rotating 128.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 128.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 61 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 61 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 61.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 231 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 231.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 231.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 181.2 degrees right",
+    "expected_output": {
+      "response": "Rotating 181.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 181.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 150.7 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 150.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 150.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 331 degrees right",
+    "expected_output": {
+      "response": "Spinning 331 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 331.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 340.6 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 340.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 340.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 116.6 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 116.6 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 116.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 321.1 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 321.1 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 321.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 52.7 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 52.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 52.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 5.5 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 5.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 5.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 262.9 degrees",
+    "expected_output": {
+      "response": "Rotating 262.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 262.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 267 degrees to the right",
+    "expected_output": {
+      "response": "Rotating 267.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 267.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 53.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 53.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 53.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 133.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 133.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 133.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 100.2 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 100.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 100.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 15 degree to the right rotation",
+    "expected_output": {
+      "response": "Making a 15 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 15.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 339 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 339 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 339.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 34 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 34.0 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 34.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 29.6 degree left rotation",
+    "expected_output": {
+      "response": "Making a 29.6 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 29.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 99 degrees to the left",
+    "expected_output": {
+      "response": "Spinning 99 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 99.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 323.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 323.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 323.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 179.6 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 179.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 179.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 158 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 158 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 158.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 306.5 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 306.5 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 306.5,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 312 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 312 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 312.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 189.8 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 189.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 189.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 80.6 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 80.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 80.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 36.2 degrees",
+    "expected_output": {
+      "response": "Rotating 36.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 36.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 67 degrees",
+    "expected_output": {
+      "response": "Rotating 67 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 67.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 224.3 degrees right",
+    "expected_output": {
+      "response": "Spinning 224.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 224.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 186.5 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 186.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 186.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate left by 200.4 degrees",
+    "expected_output": {
+      "response": "Rotating 200.4 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 200.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate to the left by 93.1 degrees",
+    "expected_output": {
+      "response": "Rotating 93.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 93.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 163.9 degrees right",
+    "expected_output": {
+      "response": "Rotating 163.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 163.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 98.8 degrees",
+    "expected_output": {
+      "response": "Rotating 98.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 98.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 212.1 degrees",
+    "expected_output": {
+      "response": "Rotating 212.1 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 212.1,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 351.6 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 351.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 351.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 315 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 315 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 315.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 240.2 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 240.2 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 240.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 212.6 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 212.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 212.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 121.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 121.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 121.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 348.9 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 348.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 348.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 243 degrees right",
+    "expected_output": {
+      "response": "Rotating 243 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 243.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate clockwise by 54.2 degrees",
+    "expected_output": {
+      "response": "Rotating 54.2 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 54.2,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 290 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 290 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 290.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 199.8 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 199.8 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 199.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 4.4 degree to the left rotation",
+    "expected_output": {
+      "response": "Making a 4.4 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 4.4,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 7.7 degrees clockwise",
+    "expected_output": {
+      "response": "Spinning 7.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 7.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 294.2 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 294.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 294.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 307 degrees",
+    "expected_output": {
+      "response": "Rotating 307 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 307.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 313.8 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 313.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 313.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 304.7 degrees right",
+    "expected_output": {
+      "response": "Rotating 304.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 304.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 130 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 130 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 130.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 133.6 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 133.6 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 133.6,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 94.7 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 94.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 94.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 245.5 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 245.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 245.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 85.8 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 85.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 85.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 225 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 225 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 225.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 346.8 degrees right",
+    "expected_output": {
+      "response": "Spinning 346.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 346.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 41.6 degrees to the left",
+    "expected_output": {
+      "response": "Rotating 41.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 41.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 101.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 101.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 101.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 244.8 degrees right",
+    "expected_output": {
+      "response": "Turning robot 244.8 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 244.8,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 115 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 115 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 115.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 202 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 202 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 202.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 296.7 degrees",
+    "expected_output": {
+      "response": "Rotating 296.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 296.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 140 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 140.0 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 140.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 299.2 degrees",
+    "expected_output": {
+      "response": "Rotating 299.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 299.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 61.6 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 61.6 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 61.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 284 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 284 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 284.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 91 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 91 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 91.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 238 degrees right",
+    "expected_output": {
+      "response": "Rotating 238.0 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 238.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 122.2 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 122.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 122.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 137 degrees",
+    "expected_output": {
+      "response": "Rotating 137 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 137.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 225 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning 225 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 225.0,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate 230.1 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Rotating 230.1 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 230.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate right by 51.3 degrees",
+    "expected_output": {
+      "response": "Rotating 51.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 51.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 116.7 degrees to the left",
+    "expected_output": {
+      "response": "Turning 116.7 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 116.7,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 120.1 degree counter-clockwise rotation",
+    "expected_output": {
+      "response": "Making a 120.1 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 120.1,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate right by 210.4 degrees",
+    "expected_output": {
+      "response": "Rotating 210.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 210.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 11 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 11 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 11.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 35.9 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 35.9 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 35.9,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "spin 273.8 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Spinning 273.8 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 273.8,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 104 degree clockwise rotation",
+    "expected_output": {
+      "response": "Making a 104 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 104.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn 161.7 degrees clockwise",
+    "expected_output": {
+      "response": "Turning 161.7 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 161.7,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 139 degree right rotation",
+    "expected_output": {
+      "response": "Making a 139 degree clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 139.0,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 135.4 degrees clockwise",
+    "expected_output": {
+      "response": "Turning robot 135.4 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 135.4,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "please rotate 100.3 degrees clockwise",
+    "expected_output": {
+      "response": "Rotating 100.3 degrees clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 100.3,
+        "direction": "clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "rotate counter-clockwise by 172.5 degrees",
+    "expected_output": {
+      "response": "Rotating 172.5 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 172.5,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "Make a 10.6 degree left rotation",
+    "expected_output": {
+      "response": "Making a 10.6 degree counter-clockwise rotation.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 10.6,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 247.9 degrees counter-clockwise",
+    "expected_output": {
+      "response": "Turning robot 247.9 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 247.9,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  },
+  {
+    "user_input": "turn the robot 156.2 degrees to the left",
+    "expected_output": {
+      "response": "Turning robot 156.2 degrees counter-clockwise.",
+      "command": "rotate",
+      "command_params": {
+        "angle": 156.2,
+        "direction": "counter-clockwise"
+      }
+    },
+    "category": "rotate",
+    "type": "successful_command"
+  }
+]

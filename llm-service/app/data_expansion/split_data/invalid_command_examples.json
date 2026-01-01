@@ -1,0 +1,202 @@
+[
+  {
+    "user_input": "pick up the box",
+    "expected_output": {
+      "response": "I don't have manipulation capabilities. I can move to the box's location.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "do a backflip",
+    "expected_output": {
+      "response": "I cannot perform acrobatics. I can rotate in place though.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "jump over the wall",
+    "expected_output": {
+      "response": "I cannot jump. I can move to coordinates on the ground level.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "sing a song",
+    "expected_output": {
+      "response": "I can't sing, but I can patrol areas rhythmically at different speeds.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "take a photo",
+    "expected_output": {
+      "response": "I don't have camera functions. My capabilities are movement and patrol.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "climb the stairs",
+    "expected_output": {
+      "response": "I'll need to use my standard navigation. Please provide coordinates.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "solve world hunger",
+    "expected_output": {
+      "response": "That's beyond my capabilities. I can help with navigation tasks.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "turn on the lights",
+    "expected_output": {
+      "response": "I cannot control lights. I focus on navigation and patrol.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "transform into a car",
+    "expected_output": {
+      "response": "I cannot transform. I can move, rotate, and patrol.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "send an email",
+    "expected_output": {
+      "response": "I don't have email capabilities. I specialize in navigation and patrol.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "dance for me",
+    "expected_output": {
+      "response": "I can rotate and move, but not dance. Would you like me to rotate instead?",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "call someone",
+    "expected_output": {
+      "response": "I don't have communication features. I can navigate to a phone if you provide coordinates.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "play music",
+    "expected_output": {
+      "response": "I can't play music, but I can navigate to any coordinates you specify.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "cook me dinner",
+    "expected_output": {
+      "response": "I'm a navigation robot. I can't cook, but I can move to specific locations.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "read this sign",
+    "expected_output": {
+      "response": "I cannot read signs. Please provide navigation commands.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "fly to the moon",
+    "expected_output": {
+      "response": "I cannot fly. I can only move to ground coordinates, rotate, or patrol designated areas.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "swim across the pool",
+    "expected_output": {
+      "response": "I'm not waterproof. I can only navigate on solid ground.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "tell me a joke",
+    "expected_output": {
+      "response": "I'm not programmed for humor, but I'm great at navigation!",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "open the door",
+    "expected_output": {
+      "response": "I cannot manipulate doors. I can navigate to the door's location.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  },
+  {
+    "user_input": "calculate 5 plus 5",
+    "expected_output": {
+      "response": "While that's 10, I'm designed for navigation, not calculations.",
+      "command": null,
+      "command_params": null
+    },
+    "category": "invalid_command",
+    "type": "impossible_action"
+  }
+]
