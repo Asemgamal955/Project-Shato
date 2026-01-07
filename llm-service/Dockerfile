@@ -26,9 +26,13 @@ RUN pip install --no-cache-dir fastapi uvicorn[standard] requests chromadb sente
 
 # Copy app code and start.sh
 COPY . .
-RUN chmod +x start.sh
+
+# Fix line endings and make executable
+RUN apt-get update && apt-get install -y dos2unix && rm -rf /var/lib/apt/lists/* \
+    && dos2unix start.sh \
+    && chmod +x start.sh
 
 EXPOSE 9000 11434
 
 # Use start.sh to start both Ollama and FastAPI
-CMD ["./start.sh"]
+CMD ["/bin/sh", "./start.sh"]

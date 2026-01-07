@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # start.sh - robust version
 
 # Start Ollama server

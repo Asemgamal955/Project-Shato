@@ -23,4 +23,4 @@ COPY . .
 EXPOSE 8003
 
 # Start the server
-CMD ["python", "main.py","--host", "0.0.0.0"]
+CMD ["python", "main.py"]
